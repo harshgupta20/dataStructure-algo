@@ -1,7 +1,7 @@
 console.log("Working!");
 
 // Taking user input
-let userInput = 10;
+let userInput = 10000;
 // function to get fabonacci number
 checkFabo(userInput);
 
