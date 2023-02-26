@@ -28,23 +28,3 @@ function insertionSort(arr){
     console.log("BigOh :" +bigOh)
     return arr;
 }
-
-
-
-
-
-
-
-
-
-
-
-// function insertionSort(arr){
-//     for(let i=arr.length-1; i>=1; i++){
-//         for(let j=0; j<=arr.length-i; j++){
-//             if(arr[j]>arr[j+1]){
-
-//             }
-//         }
-//     }
-// }
