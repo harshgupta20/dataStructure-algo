@@ -1,16 +1,11 @@
 console.log("working");
-
 let userInput = 1;
 let array = [2,3,5,6,7,8,9];
-
 console.log(checkNum(userInput, array));
-
 function checkNum(userInput, array){
-    
     let start = 0;
     let end = array.length-1;
-    let mid = (end - start)/2; 
-
+    let mid = (end - start)/2;
     while(start<=end && start<0){
         if(userInput < array[mid]){
             console.log("uper"+mid);
